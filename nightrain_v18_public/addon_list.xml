@@ -41,7 +41,7 @@
  </addon>
 
 
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.1" provider-name="NightRain">
+ <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.inputstreamhelper" version="0.3.3"/>
@@ -60,7 +60,7 @@
 	</extension>
  </addon>
 
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.0" provider-name="NightRain">
+ <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.inputstreamhelper" version="0.3.3"/>
