@@ -223,10 +223,7 @@ v1.8.0 (2020-08-20)
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
-	<!-- 	<import addon="script.skinshortcuts" version="0.6.5"/> -->
 		<import addon="script.skin.helper.service" version="1.0.0"/>
-      <!--   <import addon="script.skin.helper.widgets" version="1.0.0"/>
-        <import addon="script.image.resource.select" version="1.0.0"/> -->
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
@@ -256,10 +253,7 @@ v1.8.0 (2020-08-20)
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
-	<!-- 	<import addon="script.skinshortcuts" version="0.6.5"/> -->
 		<import addon="script.skin.helper.service" version="1.0.0"/>
-      <!--   <import addon="script.skin.helper.widgets" version="1.0.0"/>
-        <import addon="script.image.resource.select" version="1.0.0"/> -->
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
@@ -277,10 +271,10 @@ v1.8.0 (2020-08-20)
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/1.jpg</screenshot>
+			<screenshot>resources/2.jpg</screenshot>
+			<screenshot>resources/3.jpg</screenshot>
+			<screenshot>resources/4.jpg</screenshot>
 		</assets>
 	</extension>
  </addon>
