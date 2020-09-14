@@ -218,7 +218,7 @@ v1.8.0 (2020-08-20)
  </addon>
 
 
- <addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 19.x (MATRIX)" version="1.0.0" provider-name="castagnait">
+ <addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 19.x (Netflix Repo)" version="1.0.0" provider-name="castagnait">
 	<extension point="xbmc.addon.repository" name="CastagnaIT Repository">
 		<dir>
 			<info>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml</info>
@@ -235,6 +235,46 @@ v1.8.0 (2020-08-20)
 		</assets>
 	</extension>
  </addon>
+
+
+ <addon id="repository.sandmann79-py3.plugins" name="Sandmann79s Repository (Amazon prime video Repo)" version="1.0.0" provider-name="Sandmann79">
+	<extension point="xbmc.addon.repository" name="Sandmann79s Repository Matrix">
+		<info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Various Addons for Kodi 19 and beyond</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+ </addon>
+
+
+<!--
+ <addon id="repository.slyguy" name="SlyGuy Repository (Disney+ repo)" provider-name="SlyGuy" version="0.0.2">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets> 
+  </extension>
+ </addon>
+-->
 
 
  <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
