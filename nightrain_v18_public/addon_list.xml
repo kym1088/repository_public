@@ -5,8 +5,8 @@
  <addon id="plugin.video.tvingm" name="TVING MINI" version="1.6.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="tvingMain.py">
     	<provides>video</provides>
@@ -24,8 +24,8 @@
  <addon id="plugin.video.tvingm" name="TVING MINI" version="1.6.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="tvingMain.py">
     	<provides>video</provides>
@@ -44,8 +44,8 @@
  <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="wavveMain.py">
     	<provides>video</provides>
@@ -63,8 +63,8 @@
  <addon id="plugin.video.wavvem" name="WAVVE MINI" version="1.6.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="wavveMain.py">
     	<provides>video</provides>
@@ -83,8 +83,8 @@
  <addon id="plugin.video.watcham" name="WATCHA MINI" version="1.6.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="watchaMain.py">
     	<provides>video</provides>
@@ -102,8 +102,8 @@
  <addon id="plugin.video.watcham" name="WATCHA MINI" version="1.6.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="watchaMain.py">
     	<provides>video</provides>
@@ -200,7 +200,7 @@ v1.8.0 (2020-08-20)
  </addon>
  
 
- <addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 18.x (LEIA)" version="1.0.1" provider-name="castagnait">
+ <addon id="repository.castagnait" name="CastagnaIT Repository for Kodi 18.x (Netflix Repo)" version="1.0.1" provider-name="castagnait">
 	<extension point="xbmc.addon.repository" name="CastagnaIT Repository">
 		<dir>
 			<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
@@ -218,6 +218,44 @@ v1.8.0 (2020-08-20)
 	</extension>
  </addon> 
 
+
+ <addon id="repository.sandmann79.plugins" name="Sandmann79s Repository (Amazon prime video Repo)" version="1.0.3" provider-name="Sandmann79">
+	<extension point="xbmc.addon.repository" name="Sandmann79s Repository Leia">
+		<info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Various Addons for Kodi 18 and below</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+ </addon>
+
+<!--
+ <addon id="repository.slyguy" name="SlyGuy Repository (Disney+ repo)" provider-name="SlyGuy" version="0.0.2">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets> 
+  </extension>
+ </addon>
+-->
 
  <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
