@@ -2,6 +2,29 @@
 <addons>
 
 
+ <addon id="plugin.video.spotvm" name="SPOTV NOW MINI" version="2.0.0" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
+		<import addon="script.module.requests" version="2.22.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="spotvMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">SpotvNow for KODI</summary>
+		<summary lang="ko_KR">SpotvNow for KODI</summary>
+		<description lang="en_GB">SpotvNow Live Channel service</description>
+		<description lang="ko_KR">SpotvNow Live Channel service</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
+
  <addon id="plugin.video.tvingm" name="TVING MINI" version="2.0.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -276,8 +299,7 @@ v1.8.0 (2020-08-20)
  </addon>
 -->
 
-
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -286,9 +308,11 @@ v1.8.0 (2020-08-20)
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">skin created and design by Jugger</summary>
+		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
+		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
 		<summary lang="de">Skin Destiny von Jugger</summary>
-		<description lang="en">The skin is kept simple but Destiny Modern skin but has a lot to offer.</description>
+		<description lang="en">The skin modification work is called ant hell.</description>
+		<description langlang="ko_KR">스킨수정은 개미지옥입니다!</description>
 		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
 		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
 		<platform>all</platform>
@@ -306,7 +330,7 @@ v1.8.0 (2020-08-20)
 	</extension>
  </addon>
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200908.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -315,9 +339,11 @@ v1.8.0 (2020-08-20)
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">skin created and design by Jugger</summary>
+		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
+		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
 		<summary lang="de">Skin Destiny von Jugger</summary>
-		<description lang="en">The skin is kept simple but Destiny Modern skin but has a lot to offer.</description>
+		<description lang="en">The skin modification work is called ant hell.</description>
+		<description langlang="ko_KR">스킨수정은 개미지옥입니다!</description>
 		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
 		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
 		<platform>all</platform>
