@@ -137,7 +137,7 @@
  </addon>
 
 
- <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.0.3" provider-name="NightRain">
+ <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.0.4" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
@@ -159,7 +159,7 @@
 	</extension>
  </addon>
 
- <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.0.2" provider-name="NightRain">
+ <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.0.3" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
@@ -319,7 +319,7 @@ v1.9.0 (2020-09-06)
  </addon>
 -->
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200924.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -350,7 +350,7 @@ v1.9.0 (2020-09-06)
 	</extension>
  </addon>
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
