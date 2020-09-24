@@ -256,7 +256,7 @@ v1.9.0 (2020-09-06)
 -->
 
 
-<addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
+<addon id="skin.destiny" name="Destiny.KM" version="4.0.20200924.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -288,7 +288,7 @@ v1.9.0 (2020-09-06)
 	</extension>
 </addon>
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200910.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
