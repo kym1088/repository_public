@@ -319,6 +319,39 @@ v1.9.0 (2020-09-06)
  </addon>
 -->
 
+
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200930.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.favourites" version="7.1.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
+		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
+		<summary lang="de">Skin Destiny von Jugger</summary>
+		<description lang="en">The skin modification work is called ant hell.</description>
+		<description langlang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</description>
+		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
+		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
+		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
+		<source>https://github.com/kodinerds/repo/tree/master/skin.destiny</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/1.jpg</screenshot>
+			<screenshot>resources/2.jpg</screenshot>
+			<screenshot>resources/3.jpg</screenshot>
+			<screenshot>resources/4.jpg</screenshot>
+			<screenshot>resources/5.PNG</screenshot>
+		</assets>
+	</extension>
+ </addon>
+
  <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200924.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
@@ -332,7 +365,7 @@ v1.9.0 (2020-09-06)
 		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
 		<summary lang="de">Skin Destiny von Jugger</summary>
 		<description lang="en">The skin modification work is called ant hell.</description>
-		<description langlang="ko_KR">스킨수정은 개미지옥입니다!</description>
+		<description langlang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</description>
 		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
 		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
 		<platform>all</platform>
@@ -346,40 +379,10 @@ v1.9.0 (2020-09-06)
 			<screenshot>resources/2.jpg</screenshot>
 			<screenshot>resources/3.jpg</screenshot>
 			<screenshot>resources/4.jpg</screenshot>
+			<screenshot>resources/5.PNG</screenshot>
 		</assets>
 	</extension>
  </addon>
-
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20200915.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
-	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.favourites" version="7.1.1"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
-		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
-		<summary lang="de">Skin Destiny von Jugger</summary>
-		<description lang="en">The skin modification work is called ant hell.</description>
-		<description langlang="ko_KR">스킨수정은 개미지옥입니다!</description>
-		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
-		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
-		<platform>all</platform>
-		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
-		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
-		<source>https://github.com/kodinerds/repo/tree/master/skin.destiny</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/1.jpg</screenshot>
-			<screenshot>resources/2.jpg</screenshot>
-			<screenshot>resources/3.jpg</screenshot>
-			<screenshot>resources/4.jpg</screenshot>
-		</assets>
-	</extension>
- </addon>
-
+ 
  
 </addons>
