@@ -119,6 +119,49 @@
  </addon>
 
 
+ <addon id="plugin.video.netflix" name="Netflix" version="1.10.0" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.addon.signals" version="0.0.3"/>
+    <import addon="script.module.future" version="0.17.1"/>
+    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.python.module" library="packages/mysql-connector-python"/>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+	<assets>
+      <icon>resources/media/icon.png</icon>
+      <fanart>resources/media/fanart.jpg</fanart>
+      <screenshot>resources/media/screenshot-01.jpg</screenshot>
+      <screenshot>resources/media/screenshot-02.jpg</screenshot>
+      <screenshot>resources/media/screenshot-03.jpg</screenshot>
+      <screenshot>resources/media/screenshot-04.jpg</screenshot>
+      <screenshot>resources/media/screenshot-05.jpg</screenshot>
+    </assets>
+    <language>en cs de es fr he hr hu it ja ko nl pl pt ro sv tr zh</language>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://www.netflix.com</website>
+    <email/>
+    <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
+    <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
+    <news>
+v1.10.0 (2020-10-02)
+- Add initial support to keymapping (details to Wiki)
+- Fixed regression causing PIN request each time the main menu is loaded
+- Fixed an issue that caused build_media_tag exception while watching video
+- Fixed an issue that caused build_media_tag exception while watching a non-netflix content
+- Improvements to english language and related translations
+    </news>
+  </extension>
+ </addon>
+
  <addon id="plugin.video.netflix" name="Netflix" version="1.9.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
@@ -153,46 +196,6 @@ v1.9.1 (2020-09-18)
 -Fixed an issue that cause to ask to clear search history again when you return to previous menu
 -Fixed possible wrong results on Top 10 menu due to cache TTL
 -Updated translations ro, nl
-    </news>
-  </extension>
- </addon>
-
- <addon id="plugin.video.netflix" name="Netflix" version="1.9.0" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.addon.signals" version="0.0.3"/>
-    <import addon="script.module.future" version="0.17.1"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    <import addon="script.module.pycryptodome" version="3.4.3"/>
-    <import addon="script.module.requests" version="2.12.4"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py"/>
-  <extension point="xbmc.python.module" library="packages/mysql-connector-python"/>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-	<assets>
-      <icon>resources/media/icon.png</icon>
-    </assets>
-    <language>en cs de es fr he hr hu it ja ko nl pl pt ro sv tr zh</language>
-    <platform>all</platform>
-    <license>MIT</license>
-    <website>https://www.netflix.com</website>
-    <email></email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
-    <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
-    <news>
-v1.9.0 (2020-09-06)
--New login method "Authentication key" details on GitHub readme
--Add possibility to import library from a different folder
--Add flatted tvshow for single season (depends from kodi setting)
--Big speedup improvement for Kodi 18 in service loading and opening profiles page
--Fixed a problem that could cause the addon to not start after login unexpected errors
--Fixed a wrong behaviour that caused timeout error after credentials login fails
--Fixed context menus issues after add a new search
--Updated translations de, it, fr, pl, zh_ch, pt_br, hu, jp, kr, el_gr, es
     </news>
   </extension>
  </addon>
