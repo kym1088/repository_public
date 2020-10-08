@@ -47,29 +47,7 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.0.3" provider-name="NightRain">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
-		<import addon="script.module.requests" version="2.22.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="tvingMain.py">
-    	<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">TVING for KODI</summary>
-		<summary lang="ko_KR">TVING for KODI</summary>
-		<description lang="en_GB">TVING Live and Vod service</description>
-		<description lang="ko_KR">TVING Live and Vod service</description>
-		<language></language>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
- </addon>
-
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.0.2" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.0.4" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
@@ -92,29 +70,7 @@
  </addon>
 
 
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.0.3" provider-name="NightRain">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
-		<import addon="script.module.requests" version="2.22.0"/>    
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="wavveMain.py">
-    	<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">WAVVE for KODI</summary>
-		<summary lang="ko_KR">WAVVE for KODI</summary>
-		<description lang="en_GB">WAVVE Live and Vod service</description>
-		<description lang="ko_KR">WAVVE Live and Vod service</description>
-		<language></language>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
- </addon>
-
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.0.2" provider-name="NightRain">
+ <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.0.4" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
