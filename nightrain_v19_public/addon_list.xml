@@ -2,7 +2,7 @@
 <addons>
 
 
- <addon id="plugin.video.boritvm" name="BORITV MINI (m3u,epg helper)" version="2.0.1" provider-name="NightRain">
+ <addon id="plugin.video.boritvm" name="BORITV MINI (m3u,epg helper)" version="2.0.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.22.0"/>    
@@ -245,7 +245,7 @@ v1.10.1 (2020-10-24)
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201102.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201113.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
