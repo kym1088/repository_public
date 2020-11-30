@@ -2,7 +2,7 @@
 <addons>
 
 
- <addon id="plugin.video.boritvm" name="BORITV MINI (m3u,epg helper)" version="2.0.4" provider-name="NightRain">
+ <addon id="plugin.video.boritvm" name="BORITV MINI (m3u,epg helper)" version="2.0.5" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.22.0"/>    
