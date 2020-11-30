@@ -219,11 +219,12 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201113.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201129.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.globalsearch" version="8.0.13"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
@@ -235,7 +236,8 @@
 		<description lang="en">The skin modification has done by KM</description>
 		<description langlang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</description>
 		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
-		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
+		<disclaimer lang="en">no official skin use at your own <texturefocus colordiffuse="blue">special://skin/media/home/button_volume_up.png</texturefocus>
+				<texturenofocus colordiffuse="icons">special://skin/media/home/button_volume_up.png</texturenofocus> risk.</disclaimer>
 		<platform>all</platform>
 		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
 		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
