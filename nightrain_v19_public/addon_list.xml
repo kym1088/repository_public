@@ -211,7 +211,7 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201209.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201216.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -241,10 +241,10 @@
 			<screenshot>resources/2.jpg</screenshot>
 			<screenshot>resources/3.jpg</screenshot>
 			<screenshot>resources/4.jpg</screenshot>
-			<screenshot>resources/5.png</screenshot>
-			<screenshot>resources/6.png</screenshot>
-			<screenshot>resources/7.png</screenshot>
-			<screenshot>resources/8.png</screenshot>
+			<screenshot>resources/5.jpg</screenshot>
+			<screenshot>resources/6.jpg</screenshot>
+			<screenshot>resources/7.jpg</screenshot>
+			<screenshot>resources/8.jpg</screenshot>
 		</assets>
 	</extension>
  </addon>
