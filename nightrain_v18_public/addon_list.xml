@@ -200,7 +200,7 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201216.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20201218.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
