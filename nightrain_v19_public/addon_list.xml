@@ -24,7 +24,7 @@
  </addon>
 
 
- <addon id="plugin.video.spotvm" name="SPOTV NOW MINI" version="2.1.0" provider-name="NightRain">
+ <addon id="plugin.video.spotvm" name="SPOTV NOW MINI" version="2.1.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
