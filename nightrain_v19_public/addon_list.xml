@@ -210,12 +210,13 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20210103.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20210105.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
 		<import addon="script.globalsearch" version="9.0.5"/>
 		<import addon="script.skinshortcuts" version="1.1.0"/>
+		<import addon="service.upnext" version="1.1.4+matrix.1"/>
 		
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
@@ -247,7 +248,6 @@
 		</assets>
 	</extension>
  </addon>
-
  
  
 </addons>
