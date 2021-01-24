@@ -200,7 +200,7 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20210105.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
+ <addon id="skin.destiny" name="Destiny.KM" version="4.0.20210124.0" provider-name="Jugger + ko.mod_KM for Kodi 18">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -208,6 +208,8 @@
 		<import addon="script.globalsearch" version="8.0.13"/>
 		<import addon="script.skinshortcuts" version="1.0.17"/>
 		<import addon="service.upnext" version="1.1.4"/>
+		<import addon="script.embuary.helper" version="1.4.9"/>
+		<import addon="plugin.video.youtube" version="6.8.9"/>		
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
