@@ -106,7 +106,7 @@
  </addon>
 
 
- <addon id="plugin.video.netflix" name="Netflix" version="1.12.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+ <addon id="plugin.video.netflix" name="Netflix" version="1.12.2" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.addon.signals" version="0.0.3"/>
@@ -135,7 +135,7 @@
     <platform>all</platform>
     <license>MIT</license>
     <website>https://www.netflix.com</website>
-    <email/>
+    <email></email>
     <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
     <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
   </extension>
