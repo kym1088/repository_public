@@ -2,6 +2,29 @@
 <addons>
 
 
+ <addon id="plugin.video.searchm" name="SEARCH MINI (OTT Search helper)" version="2.0.0" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<!-- <import addon="script.module.inputstreamhelper" version="0.4.4"/> -->
+		<import addon="script.module.requests" version="2.22.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="searchMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Search helper for Bori OTT</summary>
+		<summary lang="kr">Search helper for Bori OTT</summary>
+		<description lang="en">Search helper for Bori OTT</description>
+		<description lang="kr">Search helper for Bori OTT</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
+
  <addon id="plugin.video.boritvm" name="BORITV MINI (m3u,epg helper)" version="2.1.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
