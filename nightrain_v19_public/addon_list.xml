@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+ <addon id="plugin.video.bookmarkm" name="BOOKMARK MINI (OTT Favorites helper)" version="2.0.0" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<!-- <import addon="script.module.inputstreamhelper" version="0.4.4"/> -->
+		<import addon="script.module.requests" version="2.22.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="bookmarkMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Favorites helper for Bori OTT</summary>
+		<summary lang="kr">Favorites helper for Bori OTT</summary>
+		<description lang="en">Favorites helper for Bori OTT</description>
+		<description lang="kr">Favorites helper for Bori OTT</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
 
  <addon id="plugin.video.searchm" name="SEARCH MINI (OTT Search helper)" version="2.0.3" provider-name="NightRain">
 	<requires>
