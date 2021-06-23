@@ -102,10 +102,10 @@
     	<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Favorites helper for Bori OTT</summary>
-		<summary lang="kr">Favorites helper for Bori OTT</summary>
-		<description lang="en">Favorites helper for Bori OTT</description>
-		<description lang="kr">Favorites helper for Bori OTT</description>
+		<summary lang="en_GB">Favorites helper for Bori Addon</summary>
+		<summary lang="ko_KR">Favorites helper for Bori Addon</summary>
+		<description lang="en_GB">Favorites helper for Bori Addon</description>
+		<description lang="ko_KR">Favorites helper for Bori Addon</description>
 		<language></language>
 		<platform>all</platform>
 		<assets>
@@ -125,10 +125,10 @@
     	<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Search helper for Bori OTT</summary>
-		<summary lang="kr">Search helper for Bori OTT</summary>
-		<description lang="en">Search helper for Bori OTT</description>
-		<description lang="kr">Search helper for Bori OTT</description>
+		<summary lang="en_GB">Search helper for Bori Addon</summary>
+		<summary lang="ko_KR">Search helper for Bori Addon</summary>
+		<description lang="en_GB">Search helper for Bori Addon</description>
+		<description lang="ko_KR">Search helper for Bori Addon</description>
 		<language></language>
 		<platform>all</platform>
 		<assets>
@@ -252,7 +252,7 @@
  </addon>
 
 
- <addon id="plugin.video.netflix" name="Netflix" version="1.16.0+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+ <addon id="plugin.video.netflix" name="Netflix" version="1.16.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
