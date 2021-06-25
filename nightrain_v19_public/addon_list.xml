@@ -47,7 +47,7 @@
 	</extension>
  </addon>
 
- <addon id="script.thumbcache.cleanerm" name="Thumbnails cache cleaner MINI" version="1.0.3" provider-name="NightRain">
+ <addon id="script.thumbcache.cleanerm" name="Thumbnails cache cleaner MINI" version="1.0.4" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
