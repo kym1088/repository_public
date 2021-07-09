@@ -206,7 +206,7 @@
  </addon>
 
 
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.2.4" provider-name="NightRain">
+ <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.2.5" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
