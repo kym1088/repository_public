@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+ <addon id="plugin.video.samsungtvm" name="SamsungTV Plus MINI" version="2.0.0" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
+		<import addon="script.module.requests" version="2.22.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="samsungtvMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">SamsungTV Plus for KODI</summary>
+		<summary lang="ko_KR">SamsungTV Plus for KODI</summary>
+		<description lang="en_GB">SamsungTV Plus service</description>
+		<description lang="ko_KR">SamsungTV Plus service</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
  <addon id="plugin.video.kakaotvm" name="KakaoTV MINI" version="2.0.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
