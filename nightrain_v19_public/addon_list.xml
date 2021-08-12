@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+ <addon id="plugin.video.coupangm" name="CoupangPlay MINI" version="2.0.1" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
+		<import addon="script.module.requests" version="2.22.0"/>
+		<!--<import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1"/>-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="coupangMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Coupang Play for KODI</summary>
+		<summary lang="ko_KR">Coupang Play for KODI</summary>
+		<description lang="en_GB">Coupang Play service</description>
+		<description lang="ko_KR">Coupang Play service</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
  <addon id="plugin.video.samsungtvm" name="SamsungTV Plus MINI" version="2.0.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
