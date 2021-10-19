@@ -367,48 +367,5 @@
 -->
 
 
- <addon id="skin.destiny" name="Destiny.KM" version="4.0.20210131.0" provider-name="Jugger + ko.mod_KM for Kodi 19">
-	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.favourites" version="7.1.1"/>
-		<import addon="script.globalsearch" version="9.0.5"/>
-		<import addon="script.skinshortcuts" version="1.1.0"/>
-		<import addon="service.upnext" version="1.1.4+matrix.1"/>
-		<import addon="script.embuary.helper" version="2.0.6"/>
-		<import addon="plugin.video.themoviedb.helper" version="2.4.36"/>
-		<import addon="plugin.video.youtube" version="6.8.9+matrix.1"/>
-				
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
-		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
-		<summary lang="de">Skin Destiny von Jugger</summary>
-		<description lang="en">The skin modification has done by KM</description>
-		<description langlang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</description>
-		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
-		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
-		<platform>all</platform>
-		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
-		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
-		<source>https://github.com/kodinerds/repo/tree/master/skin.destiny</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/1.jpg</screenshot>
-			<screenshot>resources/2.jpg</screenshot>
-			<screenshot>resources/3.jpg</screenshot>
-			<screenshot>resources/4.jpg</screenshot>
-			<screenshot>resources/5.jpg</screenshot>
-			<screenshot>resources/6.jpg</screenshot>
-			<screenshot>resources/7.jpg</screenshot>
-			<screenshot>resources/8.jpg</screenshot>
-		</assets>
-	</extension>
- </addon>
-
- 
  
 </addons>
