@@ -341,8 +341,6 @@
 	</extension>
  </addon>
 
-
-<!--
  <addon id="repository.slyguy" name="SlyGuy Repository (Disney+ repo)" provider-name="SlyGuy" version="0.0.2">
   <extension point="xbmc.addon.repository" name="SlyGuy Repository">
     <dir>
@@ -364,8 +362,6 @@
     </assets> 
   </extension>
  </addon>
--->
-
 
  
 </addons>
