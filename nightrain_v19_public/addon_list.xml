@@ -274,7 +274,7 @@
  </addon>
 
 
- <addon id="plugin.video.netflix" name="Netflix" version="1.18.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+ <addon id="plugin.video.netflix" name="Netflix" version="1.18.2+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
