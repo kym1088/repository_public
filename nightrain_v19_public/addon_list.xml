@@ -205,11 +205,12 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.3.7" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.3.9" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
 		<import addon="script.module.requests" version="2.22.0"/>
+		<import addon="script.module.pycryptodome" version="3.4.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="tvingMain.py">
     	<provides>video</provides>
