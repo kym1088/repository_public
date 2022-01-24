@@ -205,7 +205,7 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.3.9" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
