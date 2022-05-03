@@ -252,7 +252,7 @@
  </addon>
 
 
- <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.2.5" provider-name="NightRain">
+ <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.3.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
@@ -261,6 +261,7 @@
 	<extension point="xbmc.python.pluginsource" library="watchaMain.py">
     	<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="watchaService.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">WATCHA for KODI</summary>
 		<summary lang="ko_KR">WATCHA for KODI</summary>
