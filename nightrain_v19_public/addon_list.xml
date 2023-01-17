@@ -205,10 +205,11 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.7" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.8" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
+		<!--<import addon="script.module.inputstreamhelper" version="0.4.4"/>-->
+		<import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
 		<import addon="script.module.requests" version="2.22.0"/>
 		<import addon="script.module.pycryptodome" version="3.4.3"/>
 	</requires>
@@ -276,7 +277,7 @@
  </addon>
 
 
- <addon id="plugin.video.netflix" name="Netflix" version="1.20.3+matrix.1" provider-name="libdev, jojo, asciidisco, caphm, castagnait">
+ <addon id="plugin.video.netflix" name="Netflix" version="1.20.4+matrix.1" provider-name="libdev, jojo, asciidisco, caphm, castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
