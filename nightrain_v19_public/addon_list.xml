@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
- <addon id="plugin.video.coupangm" name="CoupangPlay MINI" version="2.0.9" provider-name="NightRain">
+ <addon id="plugin.video.coupangm" name="CoupangPlay MINI" version="2.1.0" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.inputstreamhelper" version="0.4.4"/>
+		<!--<import addon="script.module.inputstreamhelper" version="0.4.4"/>-->
+		<import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
 		<import addon="script.module.requests" version="2.22.0"/>
 		<!--<import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1"/>-->
 	</requires>
@@ -205,7 +206,7 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.8" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.9" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<!--<import addon="script.module.inputstreamhelper" version="0.4.4"/>-->
