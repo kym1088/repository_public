@@ -206,7 +206,7 @@
  </addon>
 
 
- <addon id="plugin.video.tvingm" name="TVING MINI" version="2.4.9" provider-name="NightRain">
+ <addon id="plugin.video.tvingm" name="TVING MINI" version="2.5.1" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<!--<import addon="script.module.inputstreamhelper" version="0.4.4"/>-->
@@ -217,6 +217,7 @@
 	<extension point="xbmc.python.pluginsource" library="tvingMain.py">
     	<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="tvingService.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">TVING for KODI</summary>
 		<summary lang="ko_KR">TVING for KODI</summary>
@@ -278,7 +279,7 @@
  </addon>
 
 
- <addon id="plugin.video.netflix" name="Netflix" version="1.20.5+matrix.1" provider-name="libdev, jojo, asciidisco, caphm, castagnait">
+ <addon id="plugin.video.netflix" name="Netflix" version="1.20.8+matrix.1" provider-name="libdev, jojo, asciidisco, caphm, castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
