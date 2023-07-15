@@ -398,5 +398,34 @@
   </extension>
  </addon>
 
+
+ <addon id="repository.km" name="KM repository for Kodi Skin" version="1.1.3" provider-name="KM">
+	<requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension name="KM Repository" point="xbmc.addon.repository">
+		<dir>
+			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml</info>
+			<checksum>https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/zip</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/addon_list.xml</info>
+			<checksum>https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/zip</datadir>
+		</dir>
+		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>KODI Repository by KM</summary>
+		<description>KODI Repository by KM</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+ </addon>
+
+
  
 </addons>
