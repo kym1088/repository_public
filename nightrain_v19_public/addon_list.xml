@@ -138,7 +138,7 @@
  </addon>
 
 
- <addon id="plugin.video.searchm" name="SEARCH MINI (OTT Search helper)" version="2.2.1" provider-name="NightRain">
+ <addon id="plugin.video.searchm" name="SEARCH MINI (OTT Search helper)" version="2.2.2" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<!-- <import addon="script.module.inputstreamhelper" version="0.4.4"/> -->
