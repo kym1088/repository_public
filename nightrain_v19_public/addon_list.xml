@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
- <addon id="plugin.video.disneym" name="Disney Plus MINI" version="2.2.3" provider-name="NightRain">
+ <addon id="plugin.video.disneym" name="Disney Plus MINI" version="2.2.4" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
