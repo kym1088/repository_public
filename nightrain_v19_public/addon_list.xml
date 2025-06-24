@@ -419,7 +419,7 @@
     </extension>
  </addon>
 
-
+<!--
  <addon id="repository.slyguy" name="SlyGuy Repository (Disney+ repo)" provider-name="SlyGuy" version="0.0.2">
   <extension point="xbmc.addon.repository" name="SlyGuy Repository">
     <dir>
@@ -441,6 +441,30 @@
     </assets> 
   </extension>
  </addon>
+ -->
+ 
+ <addon id="repository.slyguy" name="SlyGuy Repository (Disney+ repo)" provider-name="SlyGuy" version="0.0.9">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+      <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+      <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy (slyguy.uk)</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 
 
  <addon id="repository.km" name="KM repository for Kodi Skin" version="1.1.3" provider-name="KM">
