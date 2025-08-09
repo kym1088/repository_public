@@ -46,7 +46,7 @@
 	</extension>
  </addon>
 
- <addon id="plugin.video.coupangm" name="CoupangPlay MINI" version="2.1.7" provider-name="NightRain">
+ <addon id="plugin.video.coupangm" name="CoupangPlay MINI" version="2.1.8" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
@@ -275,7 +275,7 @@
  </addon>
 
 
- <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.4.8" provider-name="NightRain">
+ <addon id="plugin.video.wavvem" name="WAVVE MINI" version="2.4.9" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
