@@ -495,5 +495,22 @@
  </addon>
 
 
+ <addon id="repository.nightrain" name="Korea OTT Package for Kodi 19 (public)" version="19.0.0+public" provider-name="nightrain">
+	<extension point="xbmc.addon.repository" name="NightRain Repository">
+		<dir>
+			<info>https://github.com/kym1088/repository_public/raw/master/nightrain_v19_public/addon_list.xml</info>
+			<checksum>https://github.com/kym1088/repository_public/raw/master/nightrain_v19_public/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kym1088/repository_public/raw/master/nightrain_v19_public/zip</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Korea OTT Package for Kodi 19 (public)</summary>
+		<description>Korea OTT Package for Kodi 19 (public)</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.jpg</icon>
+		</assets>
+	</extension>
+ </addon>
  
 </addons>
