@@ -300,6 +300,29 @@
  </addon>
 
 
+ <addon id="plugin.video.broadcastm" name="Live Broadcast MINI" version="2.0.4" provider-name="NightRain">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.22.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="broadcastMain.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Live Broadcast for KODI</summary>
+		<summary lang="ko_KR">Live Broadcast for KODI</summary>
+		<description lang="en_GB">Live Broadcast service</description>
+		<description lang="ko_KR">Live Broadcast service</description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.jpg</icon>
+		</assets>
+	</extension>
+ </addon>
+ 
+
  <addon id="plugin.video.watcham" name="WATCHA MINI" version="2.3.5" provider-name="NightRain">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
